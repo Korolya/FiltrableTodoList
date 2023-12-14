@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+span {
+  margin: 0 25px 0 0;
+}
+
+.change {
+  margin: 10px 0 10px 0;
+  width: 250px;
+}
+
+.add {
+  background-color: greenyellow;
+}
+
+.delete {
+  background-color: red;
+  border-radius: 2px;
+}
+
+.border {
+  border: 10px, black;
+}
+
+.active {
+  background-color: greenyellow;
+}
+
+button {
+  border-radius: 2px;
+  margin-left: 5px;
+  background-color: coral;
+  margin-bottom: 5px;
+}
+
+li {
+  border: 2px solid #ccc;
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding: 5px;
+  word-wrap: break-word;
+  margin-left: -40px;
+}
+
+@media (min-width: 400px) {
+  li {
+    margin-left: -40px;
+    width: 380px;
+    margin-bottom: 10px;
+  }
+}
